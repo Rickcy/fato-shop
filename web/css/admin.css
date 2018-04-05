@@ -1,0 +1,161 @@
+
+body {
+    font-family: 'Roboto Slab', serif;
+    line-height:30px;
+}
+
+#wrapper {
+    width: 100%;
+    margin-top:50px;
+}
+
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background:#F3F3F3;
+
+}
+.mainPhotoGood{
+    cursor: pointer;
+    background-color: #13ca3c;
+    border-radius: 50%;
+    padding: 0.6rem 0.7rem;
+    position: absolute;
+    left: -0.3rem;
+    color: white;
+}
+.mainPhotoGood:hover{
+    color: #c4c4c4;
+    background-color: #129e30;
+}
+.deletePhotoGood{
+    cursor: pointer;
+    background-color: #6ba3f9;
+    border-radius: 50%;
+    padding: 0.6rem 0.7rem;
+    position: absolute;
+    right: -0.3rem;
+    color: white;
+}
+.deletePhotoGood:hover{
+    color: #c4c4c4;
+    background-color: #5c85cc;
+}
+
+.header-text{
+    font-size: 2rem;
+    color: #0b7b0b;
+    margin-bottom: 2rem;
+}
+#page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+    background-color:#fff!important;
+    padding:10px;
+    min-height:1050px;
+}
+.pad-top {
+    padding-top:15px;
+}
+
+.sidebar-collapse .nav {
+    padding:0;
+    padding-top:50px;
+}
+
+.sidebar-collapse > .nav > li > a {
+    padding:15px 10px;
+    color: #214761;
+    font-weight: 900;
+    font-size: 16px;
+}
+.sidebar-collapse > .nav > li {
+    border-bottom:1px solid #e1e1e1;
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+
+    background:#F3F3F3;
+    outline:0;
+}
+
+.navbar-side {
+    border:none;
+    background-color: #fff;
+
+}
+.navbar-inverse {
+    box-shadow: #a6a6a6 0 1px 7px 0;
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+    min-height: 80px;
+}
+
+
+.nav > li > a > i {
+    margin-right:10px;
+}
+.logout-spn {
+    float:right;
+    color: #5d5d5d;
+    font-size:20px;
+    font-weight:800;
+    margin: 20px 25px 10px 50px;
+}
+.logout-spn a {
+    text-decoration:none;
+    color: #5d5d5d;
+}
+.active-link {
+    background-color:#f3f3f3;
+}
+
+.div-square {
+    padding:5px;
+    border:3px double #e1e1e1;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    margin:5px;
+
+}
+
+.div-square> a,.div-square> a:hover {
+    color:#808080;
+    text-decoration:none;
+}
+
+.footer {
+    background-color:#214761;
+    width:100%;
+    color:#fff;
+    padding: 20px 50px 20px 20px;
+}
+
+
+.footer > a, .footer>a:hover {
+
+    color:#fff;
+}
+
+
+
+@media(min-width:768px) {
+    #page-wrapper{
+        margin: 0 0 0 260px;
+        padding: 15px 30px;
+        min-height: 1050px;
+
+    }
+
+
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+
+    }
+
+
+}
+
